@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Mitr|Rationale" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <section>
+    <heading>
+      <h1>Twitch Streamers</h1>
+      <form>
+          <input type="search" name="search" placeholder="Search users..." id="search">
+          <input type="submit" value="&#8681" id="submit">
+      </form>
+      <nav>
+        <ul>
+          <li id="all" class="button activate">ALL</li>
+          <li id="online" class="button">ONLINE</li>
+          <li id="offline" class="button">OFFLINE</li>
+        </ul>
+      </nav>
+    </heading>
+    <div>
+      <ul id="users"></ul>
+    </div>
+  </section>
+  <script src="js/app.js"></script>
+</html>
